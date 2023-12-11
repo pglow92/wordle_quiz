@@ -81,6 +81,7 @@ document.querySelector('.test_button').addEventListener("click", (e) => {
                 document.getElementById(`field_${i}_${j}`).childNodes[0].style.color ="white";
             } else {                
                 document.getElementById(`field_${i}_${j}`).childNodes[0].disabled = false;
+                document.getElementById(`field_${i}_${j}`).childNodes[0].style.color ="black";
             }
         }
     }
