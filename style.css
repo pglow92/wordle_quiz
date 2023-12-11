@@ -1,0 +1,186 @@
+body{
+    font:15px/1.5 Arial,Helvetica,sans-serif;
+  }
+
+.global_wrapper{
+    width: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.wordle_box{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+input{
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.wordle_wrapper{
+    width: 334px;
+    height: 404px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.test_input{
+    width: 334px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.test_button{
+    height: 50px;
+    width: 334px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.correct_solution{
+    position: absolute;
+    background-color: green;
+    color: white;
+    left: 17px;
+    top: 20px;
+    width: 300px;
+    height: 365px;
+    /* background-color: white; */
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black ;
+    border-style: solid;
+}
+
+#field_1_1{
+    left: 0px;
+    top: 0px;
+    /* text-transform: uppercase; */
+}
+#field_1_2{
+    left: 70px;
+    top: 0px;
+}
+#field_1_3{
+    left: 140px;
+    top: 0px;
+}
+#field_1_4{
+    left: 210px;
+    top: 0px;
+}
+#field_1_5{
+    left: 280px;
+    top: 0px;
+}
+#field_2_1{
+    left: 0px;
+    top: 70px;
+}
+#field_2_2{
+    left: 70px;
+    top: 70px;
+}
+#field_2_3{
+    left: 140px;
+    top: 70px;
+}
+#field_2_4{
+    left: 210px;
+    top: 70px;
+}
+#field_2_5{
+    left: 280px;
+    top: 70px;
+}
+#field_3_1{
+    left: 0px;
+    top: 140px;
+}
+#field_3_2{
+    left: 70px;
+    top: 140px;
+}
+#field_3_3{
+    left: 140px;
+    top: 140px;
+}
+#field_3_4{
+    left: 210px;
+    top: 140px;
+}
+#field_3_5{
+    left: 280px;
+    top: 140px;
+}
+#field_4_1{
+    left: 0px;
+    top: 210px;
+}
+#field_4_2{
+    left: 70px;
+    top: 210px;
+}
+#field_4_3{
+    left: 140px;
+    top: 210px;
+}
+#field_4_4{
+    left: 210px;
+    top: 210px;
+}
+#field_4_5{
+    left: 280px;
+    top: 210px;
+}
+#field_5_1{
+    left: 0px;
+    top: 280px;
+}
+#field_5_2{
+    left: 70px;
+    top: 280px;
+}
+#field_5_3{
+    left: 140px;
+    top: 280px;
+}
+#field_5_4{
+    left: 210px;
+    top: 280px;
+}
+#field_5_5{
+    left: 280px;
+    top: 280px;
+}
+#field_6_1{
+    left: 0px;
+    top: 350px;
+}
+#field_6_2{
+    left: 70px;
+    top: 350px;
+}
+#field_6_3{
+    left: 140px;
+    top: 350px;
+}
+#field_6_4{
+    left: 210px;
+    top: 350px;
+}
+#field_6_5{
+    left: 280px;
+    top: 350px;
+}

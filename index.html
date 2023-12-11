@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wordle</title>
+</head>
+<body>
+    <div class="global_wrapper">
+        <h1>Namen-Rate-Spiel</h1>
+        <p>
+            Liebe Freunde und Verwandte, <br>
+            lange musstet ihr auf den Namen unseres kleinen Würmchens warten. <br>
+            Jetzt könnt ihr ihn endlich herausfinden. <br>
+            Viel Spaß und Erfolg beim Raten :)
+        </p>
+        <div class="test_input">
+            <button class="test_button">Lösung prüfen!</button>
+        </div>
+
+        <div class="wordle_wrapper"></div>
+
+        <details class="world_legend" style="padding-top: 10px;">
+            <summary style="font-size: large;">So funtioniert's</summary>
+            <p>
+                Ein Wort mit 5 Buchstaben zu erraten, ist das Ziel. Dafür hast du 6 Versuche.
+            </p>
+            <p>
+                Und so geht’s: Starte mit einem beliebigen Wort mit 5 Buchstaben und klicke auf Enter. <br>
+                Du erfährst nach jedem Versuch, welche Buchstaben du richtig erraten hast.
+            </p>
+            <p>
+                Beispiel:
+            </p>
+            <p>
+                Das zu erratende Lösungswort ist BESEN. Das eingegebene Wort ist NUDEL, dann RASEN.
+            </p>
+            <p>
+                <strong>Groß- und Kleinschreibung ist egal.</strong>
+            </p>
+            <img src="/src/howto.jpg" alt="Girl in a jacket" > 
+            <p><span style="background-color: green; color: white;">E</span> : Das <strong>E</strong> ist an der richtigen Stelle.</p>
+            <p><span style="background-color: rgb(252,194,0);color: white;">N</span> : Das <strong>N</strong> ist zwar im Lösungswort enthalten, aber an einer anderen Stelle.</p>
+            <p><span style="background-color: grey;color: white;">U</span> ,  <span style="background-color: grey;color: white;">D</span> ,  <span style="background-color: grey;color: white;">L</span> ,  <span style="background-color: grey;color: white;">R</span> ,  <span style="background-color: grey;color: white;">A</span> : Die grau hinterlegten Buchstaben <strong>U, D, L, R</strong> und <strong>A</strong> kommen im gesuchten Lösungswort nicht vor.</p>
+
+        </details>
+        
+        <script src="main.js"></script>    
+    </div>
+</body>
+</html>
