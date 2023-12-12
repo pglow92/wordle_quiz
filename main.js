@@ -64,6 +64,7 @@ document.querySelector('.test_button').addEventListener("click", (e) => {
         document.querySelector(".test_button").style.color = "white";
         document.querySelector(".test_button").innerHTML = "! RICHTIG !<br>Herzlichen Glückwunsch, du hast richtig geraten.<br>Als Belohnung darfst du einmal bei uns die Wohnung putzen :)";
         document.querySelector(".test_button").style.height ="150px";
+        
     } else if((!result) && (active_row == 6)){                                  // Wenn Eingabe nach 6 Versuchen falsch  
         document.querySelector(".test_button").disabled = true;
         document.querySelector(".test_button").style.backgroundColor = "red";
@@ -85,6 +86,7 @@ document.querySelector('.test_button').addEventListener("click", (e) => {
             }
         }
     }
+
 })
 
 function decrypt_secrect(_secret){
@@ -94,3 +96,4 @@ function decrypt_secrect(_secret){
     }
     return result;
 }
+
