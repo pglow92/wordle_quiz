@@ -1,9 +1,8 @@
-let secret = "FIONA";
+let secret = "KNTSF";
 let active_row = 1;
 
 initiate_Quiz();
 function initiate_Quiz(){
-    console.log("test")
     for(let i=1;i<=6;i++){
         for (let j=1;j<=5;j++){
             //Erstelle 6 Reihen, 5 5 Felder
@@ -19,6 +18,7 @@ function initiate_Quiz(){
             div.appendChild(temp);
         }
     }  
+    secret = decrypt_secrect(secret);
     //Deaktiviere am Anfang alle Felder bis auf die erste Reihe
     for(let i=1;i<=6;i++){
         for (let j=1;j<=5;j++){
@@ -85,5 +85,13 @@ document.querySelector('.test_button').addEventListener("click", (e) => {
             }
         }
     }
+
+function decrypt_secrect(_secret){
+    let result = ""; 
+    for (let i=0;i<5;i++){
+        result += String.fromCharCode(_secret.charAt(i).charCodeAt(0)-5);
+    }
+    return result;
+}
 
 })
