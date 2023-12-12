@@ -85,6 +85,7 @@ document.querySelector('.test_button').addEventListener("click", (e) => {
             }
         }
     }
+})
 
 function decrypt_secrect(_secret){
     let result = ""; 
@@ -93,5 +94,3 @@ function decrypt_secrect(_secret){
     }
     return result;
 }
-
-})
